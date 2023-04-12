@@ -31,7 +31,7 @@ Se ha utilizado lenguaje de programación Java con su herramienta para conectar 
 
 <h3>Personas Contribuyentes</h3>
 
-Icaro Olivera Florencio (Instructor)
+Icaro Olivera Florencio (Instructor) ||
 Alura Latam - Oracle
 
 <h3>Personas Desarrolladoras del Proyecto</h3>
