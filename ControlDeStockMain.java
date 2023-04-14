@@ -11,3 +11,4 @@ public class ControlDeStockMain {
 		produtoCategoriaFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
+
