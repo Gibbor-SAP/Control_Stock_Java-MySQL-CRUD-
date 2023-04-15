@@ -12,6 +12,7 @@ import java.util.Map;
 
 import com.alura.jdbc.factory.ConnectionFactory;
 import com.alura.jdbc.modelo.Producto;
+import com.alura.jdbc.persistencia.PersistenciaProducto;
 
 public class ProductoController {
 
@@ -83,45 +84,11 @@ public class ProductoController {
 	}
 
 	public void guardar(Producto producto) throws SQLException {
-		ConnectionFactory factory = new ConnectionFactory();
-	
-		final Connection con = factory.recuperaConexion();
-
-		try (con) {
-			con.setAutoCommit(false); // setea la conexion y otorga el control manual de transacción al
-										// desarrollador(error: con esto, no aparecen los registros pantalla)
-
-			final PreparedStatement statement = con.prepareStatement(
-					"INSERT INTO PRODUCTO " + "(nombre, descripcion, cantidad)" + " VALUES(?,?,?)",
-					Statement.RETURN_GENERATED_KEYS);
-
-			try (statement) {
-					ejecutaRegistro(producto, statement);
-					
-					con.commit();
-				}
-			} catch (Exception e) {
-				con.rollback();
-		}
-	}
-
-
-	private void ejecutaRegistro(Producto producto, PreparedStatement statement)
-			throws SQLException {
-		statement.setString(1, producto.getNombre());
-		statement.setString(2, producto.getDescripcion());
-		statement.setInt(3, producto.getCantidad());
-
-		statement.execute();
-
-		final ResultSet resultSet = statement.getGeneratedKeys(); // Declaramos como final
-
-		try (resultSet) { // Encapsulamos el resultSet en un try
-			while (resultSet.next()) {
-				producto.setId(resultSet.getInt(1));
-				System.out.println(String.format("Fué insertado el producto %s", producto));
-			}
-		}
+		PersistenciaProducto persistenciaProducto = new PersistenciaProducto(new ConnectionFactory().recuperaConexion());
+		
+		persistenciaProducto.guardarProducto(producto);
+		
+		
 	}
 
 }
