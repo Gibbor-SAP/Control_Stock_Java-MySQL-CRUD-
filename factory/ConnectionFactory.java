@@ -20,7 +20,12 @@ public class ConnectionFactory {
 	}
 	
 	
-	public Connection recuperaConexion() throws SQLException{
-		return this.datasource.getConnection();
+	public Connection recuperaConexion() {
+		try {
+			return this.datasource.getConnection();
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
 		}
+		
 	}
+}
