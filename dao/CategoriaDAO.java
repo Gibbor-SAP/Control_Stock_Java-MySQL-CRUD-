@@ -23,13 +23,15 @@ public class CategoriaDAO {
 		try {
 			final PreparedStatement statement = con.prepareStatement(
 					"SELECT ID, NOMBRE FROM CATEGORIA");
-			try(statement){
+			
+			try(statement) {
 				final ResultSet resultSet = statement.executeQuery();
+				
 				try (resultSet) {
 					while (resultSet.next()) {
-						var categoria = new Categoria(resultSet.getInt("ID"),
+					var categoria = new Categoria(resultSet.getInt("ID"), 
 								resultSet.getString("NOMBRE"));
-						
+
 						resultado.add(categoria);
 					}
 				};
