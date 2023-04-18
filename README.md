@@ -14,7 +14,7 @@ En el marco de la capacitación backend realizada en el programa de Alura Latam 
 La aplicación funciona para agregar productos en los campos nombre, descripción, cantidad y seleccionar categoría, también se pueden eliminar y modificar productos y ver un reporte detallado de los productos en stock, ordenados por categoría.
 La base de datos posee dos tablas, una de producto y otra de categoría.
 
-Demostración de funciones y aplicaciones</h3>
+<h3>Demostración de funciones y aplicaciones</h3>
 
 https://user-images.githubusercontent.com/75150041/232818420-f6c3ca49-76b2-4c66-8ce8-42471b69d327.mp4
 
