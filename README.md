@@ -7,37 +7,48 @@
 
 <h3>Descripción del Proyecto</h3>
 
-En el marco de la capacitación back-end realizada en el programa de Alura Latam junto con Oracle, se ha desarrollado una aplicación de escritorio con la finalidad de ingresar productos para tener un control de stock en cualquier negocio que lo requiera. Desarrollada con lenguaje Java, utilizando el conector JCDB y base de datos MySQL. 
+En el marco de la capacitación backend realizada en el programa de Alura Latam junto con Oracle, se ha desarrollado una aplicación de escritorio con la finalidad de ingresar productos para tener un control de stock con las funcionalidades básicas (CRUD). Fué desarrollada con el lenguaje Java, utilizando el conector JCDB y los datos está alojados en una base de datos de MySQL Server. 
 
 <h3>Estado del proyecto</h3>
 
-Hasta el momento, ya está conectada y funcionando con la base de datos, por otro lado, las funcionalidades de Guardar, Modificar y Eliminar están cumpliendo con su propósito. Proximamente se añadirá las funcionalidades de los demás botones.
+La aplicación funciona para agregar productos en los campos nombre, descripción, cantidad y seleccionar categoría, también se pueden eliminar y modificar productos y ver un reporte detallado de los productos en stock, ordenados por categoría.
+La base de datos posee dos tablas, una de producto y otra de categoría.
 
 Demostración de funciones y aplicaciones</h3>
 
+https://user-images.githubusercontent.com/75150041/232818420-f6c3ca49-76b2-4c66-8ce8-42471b69d327.mp4
+
 <h5>Pantalla de inicio</h5>
-![image](https://user-images.githubusercontent.com/75150041/231353926-f5156a4c-783e-49cf-89b2-94b6d5f55905.png)
+![1](https://user-images.githubusercontent.com/75150041/232813948-eaaff48f-d7b7-42fe-a05b-4b7603fc5266.png)
+
 <h5>Agregando un producto</h5>
-![image](https://user-images.githubusercontent.com/75150041/231354065-08afaaa1-1785-40a8-9651-dfedcaf11fa6.png)
+![2](https://user-images.githubusercontent.com/75150041/232813973-2cbf060b-2db7-4f8e-b606-e4093861eb7d.png)
+
 <h5>Modificando un registro</h5>
-![image](https://user-images.githubusercontent.com/75150041/231354213-7dd3191e-f7b5-4614-a0ef-bd2f9fe48137.png)
+![3](https://user-images.githubusercontent.com/75150041/232814024-e599537c-2c41-41c3-898c-fd8fc4f8318e.png)
+
 <h5>Eliminando un registro</h5>
-![image](https://user-images.githubusercontent.com/75150041/231354265-0d3de9ac-0cba-4c72-acd9-611f8ef7b0d7.png)
+![4](https://user-images.githubusercontent.com/75150041/232814056-156bac10-c9e6-4c0b-ada9-fe59743b6eb9.png)
 
 <h3>Acceso al Proyecto</h3>
 
 <h3>Tecnologías utilizadas</h3>
-Se ha utilizado lenguaje de programación Java con su herramienta para conectar con bases de datos JCDB y como alojamiento de datos, se ha utilizado MySQL Worbench.
+Se ha utilizado lenguaje de programación Java con su herramienta para conectar con bases de datos JCDB y como alojamiento de datos, se ha utilizado MySQL Server 8.0.
 
 <h3>Personas Contribuyentes</h3>
 
 Icaro Olivera Florencio (Instructor) ||
 Alura Latam - Oracle
 
+Sebastian Alberto Paredes (Estudiante)
+
 <h3>Personas Desarrolladoras del Proyecto</h3>
 
 Sebastian Alberto Paredes (Estudiante)
 
+Icaro Olivera Florencio (Instructor) ||
+Alura Latam - Oracle
+
 <h3>Licencia</h3>
 
-Alura Latam | Oracle
+Sebastián A. PAREDES | Alura Latam & Oracle
