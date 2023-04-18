@@ -19,7 +19,7 @@ Demostración de funciones y aplicaciones</h3>
 https://user-images.githubusercontent.com/75150041/232818420-f6c3ca49-76b2-4c66-8ce8-42471b69d327.mp4
 
 <h5>Pantalla de inicio</h5>
-![1](https://user-images.githubusercontent.com/75150041/232813948-eaaff48f-d7b7-42fe-a05b-4b7603fc5266.png)
+![1](https://user-images.githubusercontent.com/75150041/232819616-9fdcbed4-064f-4561-8bab-df863532608e.jpeg)
 
 <h5>Agregando un producto</h5>
 ![2](https://user-images.githubusercontent.com/75150041/232813973-2cbf060b-2db7-4f8e-b606-e4093861eb7d.png)
