@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/75150041/232818420-f6c3ca49-76b2-4c66-
 ![3](https://user-images.githubusercontent.com/75150041/232814024-e599537c-2c41-41c3-898c-fd8fc4f8318e.png)
 
 <h5>Eliminando un registro</h5>
-![4](https://user-images.githubusercontent.com/75150041/232814056-156bac10-c9e6-4c0b-ada9-fe59743b6eb9.png)
+![4](https://user-images.githubusercontent.com/75150041/232818969-5889dec4-d796-44b7-a7bc-dea45a6ab840.jpg)
 
 <h3>Acceso al Proyecto</h3>
 
